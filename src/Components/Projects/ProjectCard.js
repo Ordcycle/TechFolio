@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import VisibilitySensor from "react-visibility-sensor";
 import { ScrollContext } from "../../Context/scroll";
-import projectImg from "../../assets/imgs/dummy-project.png";
+
 function ProjectCard({ project }) {
   const { scrollChange } = useContext(ScrollContext);
   return (
@@ -13,8 +13,8 @@ function ProjectCard({ project }) {
       }}
     >
       <div className="project-card">
-        <div className="content-wrapper">
-          <img src={projectImg} alt="" className="project-card-img" />
+        <div className="content-wrapper _project">
+          <img src={project.projectImg} alt="" className="project-card-img" />
           <div className="card-content">
             <div className="project-name">{project.projectName}</div>
             <div className="card-bio">{project.projectBio}</div>

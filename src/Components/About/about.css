@@ -1,12 +1,8 @@
-
-
 /*=====================
     About Section Css
 
 
 ==========================*/
-
-
 
 .about_section {
   font-size: 16px;
@@ -25,7 +21,7 @@
   box-shadow: 0 0 0 1px #ccc;
 }
 .about_section .container .device .frame .window-content {
-  padding: 30px 10px 0px 3px;
+  padding: 20px;
   text-align: start;
   font-size: 16px;
 }

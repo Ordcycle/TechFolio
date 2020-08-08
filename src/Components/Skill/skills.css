@@ -1,11 +1,8 @@
-
-
 /*=====================
-  
+
   Skills Section Css
 
 ==========================*/
-
 
 .skills_section_skill {
   color: #94a1b2;
@@ -16,7 +13,11 @@
 }
 
 .skills_section_skillsSets {
-  height: 180px;
+  height: 100px;
+}
+ul {
+  color: #94a1b2;
+  list-style-type: circle;
 }
 
 .skill_img {

@@ -13,8 +13,7 @@ function Skills() {
   const { scrollChange } = useContext(ScrollContext);
   const skillsSet = skillsSection.skillsSet.map((skill, i) => {
     return (
-      <Col xs={2} key={i}>
-        {" "}
+      <Col key={i}>
         <i className={`${skill.fontAwesomeClassname} skill_img`}></i>{" "}
       </Col>
     );
@@ -49,20 +48,24 @@ function Skills() {
             <Row around="xs" middle="xs" center="xs" start="lg">
               <Col xs={12} lg={6}>
                 <Flip left>
-                  {" "}
                   <img src={skillsIllustration} alt="skills" />{" "}
                 </Flip>
               </Col>
               <Col xs={12} lg={6}>
                 <Fade bottom cascade>
+                  <h1> Primary Stack </h1>
                   <Row
                     around="xs"
                     middle="xs"
                     className="skills_section_skillsSets"
                   >
-                    {" "}
-                    {skillsSet}{" "}
+                    {skillsSet}
                   </Row>
+                  <h1> Others Include </h1>
+                  <ul>
+                    <li> Ruby on Rails </li> <li> Typescript </li>{" "}
+                    <li> Azure </li> <li> MongoDB </li>
+                  </ul>
                   {skillsTagLines}
                 </Fade>
               </Col>

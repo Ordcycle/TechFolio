@@ -1,55 +1,112 @@
 import emoji from "react-easy-emoji";
 
-/* 1. Main App */
-/* 2. Social Networks */
-/* 3. Banner Section  */
-/* 4. About Section  */
-/* 5. Skills Section */
-/* 6. Open Source Section  */
-/* 7. Projects Section */
-/* 8. Experience Section */
-/* 9. Contact Section */
+import OptinShark from "./assets/imgs/optinshark.png";
+import Glitz from "./assets/imgs/glitzwebsites.png";
+import HairCase from "./assets/imgs/haircase.png";
+import Picoin from "./assets/imgs/pi-coin.png";
+import Foodie from "./assets/imgs/foodie.png";
+import dots from "./assets/imgs/2dots.png";
+import oof from "./assets/imgs/oof.png";
 
-/* wrap your text in emoji("") if you want to show emoji in your text
+const projectsSection = {
+  projects: [
+    {
+      projectName: "Optin Shark",
+      projectBio:
+        "A Website for Generating Email Templates for none developers, to be used on other websites",
+      projectImg: OptinShark,
+      projectUrl: "https://www.optinshark.io/",
+      stackList: ["Vue js", "Vuex", "Nuxtjs", "Tailwindcss", "Animista"],
+    },
+    {
+      projectName: "Glitzwebsites",
+      projectBio:
+        "An Education Platform for GlitzWebsite used for training students on how to build websites without coding",
+      projectImg: Glitz,
 
-/*=====================
-    1. Main App
-    Desc: set what's in the document's head section
-==========================*/
+      projectUrl: "https://glitzwebsites.xyz/",
+      stackList: ["React js", "AOS", "Tailwindcss", "Tailwind Blocks"],
+    },
+    {
+      projectName: "Hair Case",
+      projectImg: HairCase,
+      projectBio: "Ecommerce Website for selling Wigs for My hair case Website",
+      projectUrl: "https://myhaircase.com/",
+      stackList: ["WordPress", "Elementor", "HTML", "CSS", "Javascript"],
+    },
 
-const app = {
-  title: "AbdulQadir Portfolio",
-  // Note : consider leaving null if you dont have any head icon
-  icon: "ayin_qoph.png",
-  description: "An ordinary karachitte Web Developer, Mobile Shutterbug, and Writer.",
+    {
+      projectName: "Pi Coin",
+      projectBio: "A clone of Flutter wave Barter but for bitcoins",
+      projectImg: Picoin,
+      projectUrl: "/",
+      stackList: [
+        "React js",
+        "Reach Router",
+        "Strapi Js",
+        "coingecko",
+        "Node js",
+      ],
+    },
+    {
+      projectName: "Foodie",
+      projectBio:
+        "Simple React application to show nice foods all over the world",
+      projectImg: Foodie,
+      projectUrl: "https://orthocovid-19.netlify.app/",
+      stackList: [
+        "React",
+        "Typescript",
+        "Tailwindcss",
+        "Redux",
+        "Reach router",
+      ],
+    },
+
+    {
+      projectName: "2dots",
+      projectBio:
+        "A webapp for estate management and looking for houses for sale or rent all over Nigeria ",
+      projectImg: dots,
+      projectUrl: "/",
+      stackList: ["Electron", "Python", "Open Cv", "OCR", "Flask"],
+    },
+    {
+      projectName: "Oof Shop",
+      projectBio: "A Nigerian Made Footware brand",
+      projectImg: oof,
+      projectUrl: "https://oofshop.co",
+      stackList: ["WordPress", "HTML", "CSS", "Javascript"],
+    },
+  ],
 };
 
-/*=====================
-    2. Social Networks 
-    Desc: your social network links
-==========================*/
+const name = "Jonathan Atiene";
+
+const app = {
+  title: name,
+  icon: "ayin_qoph.png",
+  description:
+    "An ordinary karachitte Web Developer, Mobile Shutterbug, and Writer.",
+};
 
 const socialNetworks = {
   //Note : if you dont need or have any social network just add null value
-  github: "https://github.com/AQadir64",
+  github: "https://github.com/bemijonathan",
   linkden: null,
   facebook: "https://www.facebook.com/profile.php?id=100006896625330",
   instagram: "https://www.instagram.com/_ayin_qoph/",
   twitter: null,
 };
 
-/*=====================
-    3. Banner Section
-    Desc: techfolio logo, greetings, summary and avatar,
-==========================*/
-
 const bannerSection = {
-  username: "Abdul Qadir",
-  bannerHeading: "Marhabaan.",
+  username: name,
+  bannerHeading: "Mixed_Code.",
   bannerTagLine: emoji(
-    "An ordinary karachitte Web Developer, Mobile Shutterbug, and Writer 😀 Who loves to play with different stacks and love to give breath to Ui/Ux designs."
+    `Not your average Software Developer,
+  Human Anatomist by Day, Developer by Night 😀 Who loves to play with different stacks and love to Implement nice Ui/Ux designs.`
   ),
-  //Note:Simply add you avatar image in src/assets/imgs folder 
+  //Note:Simply add you avatar image in src/assets/imgs folder
   //and add the name along with extention e.g xyz.png , abc.svg
   //Note : if you want to use default illustration instead of adding your avatar add defaultAvatar.svg
   bannerAvatar: "avatar.jpeg",
@@ -59,22 +116,21 @@ const bannerSection = {
 
 /*=====================
     4. About Section
-    Desc: It's all about you!. this section is designed using the command 
-    line concept so it asked you to add the admin of the command line 
+    Desc: It's all about you!. this section is designed using the command
+    line concept so it asked you to add the admin of the command line
     and 2 basic commands (i recommend you to use default commands).
 ==========================*/
 
 const aboutSection = {
-  admin: "ayin_qoph@ayin_qoph",
-  firstCommand: " sudo run about.exe",
-  secondCommand: " executing about.exe",
-  about:
-    "Computer Science Student and Full Stack Developer. Passionate about solving problems that will benefit others in the area of IT or in real life. from haven't think about computer science and then picking it as a carrier back in 2017 I have discovered a lot in this system. But outside it, I'm just an ordinary karachitte man who loves to do mobile photography and write thoughts.",
+  admin: "mixed_code@mixed_code",
+  firstCommand: " node mixed_code.exe",
+  secondCommand: `opening........ `,
+  about: `3 years experienced freelancer, dynamic, and detail-oriented Full Stack Web Developer with a track record of leading teams to user-centric solutions for achieving breakthrough efficiency and driving client satisfaction. Built dozens of websites and applications using javascript technologies like Nodejs and Vuejs this has led me to acquire lots of skills which include writing clean and efficient code, quick prototyping, and Large codebase migrations. `,
 };
 
 /*=====================
     5. Skils Section
-    Desc: This section hep you set your skills 
+    Desc: This section hep you set your skills
 ==========================*/
 
 const skillsSection = {
@@ -86,7 +142,7 @@ const skillsSection = {
   ],
 
   // Recommended : don't add more than 12 skills.
-  // Note : go to https://fontawesome.com/icons?d=gallery > select the icon you want to show 
+  // Note : go to https://fontawesome.com/icons?d=gallery > select the icon you want to show
   //        > copy its class > paste it as {fontAwesomeClassname: "fab fa-html5"} in SkillsSet
 
   skillsSet: [
@@ -97,94 +153,43 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
-      fontAwesomeClassname: "fab fa-sass",
-    },
-    {
       fontAwesomeClassname: "fab fa-js",
     },
     {
       fontAwesomeClassname: "fab fa-react",
     },
     {
-      fontAwesomeClassname: "fab fa-node",
+      fontAwesomeClassname: "fab fa-angular",
     },
     {
-      fontAwesomeClassname: "fab fa-npm",
-    },
-    {
-      fontAwesomeClassname: "fas fa-fire",
+      fontAwesomeClassname: "fab fa-vuejs",
     },
     {
       fontAwesomeClassname: "fab fa-wordpress",
     },
     {
-      fontAwesomeClassname: "fab fa-python",
-    },
-    {
-      fontAwesomeClassname: "fab fa-linux",
-    },
-    {
-      fontAwesomeClassname: "fab fa-docker",
+      fontAwesomeClassname: "fab fa-node",
     },
   ],
 };
 
 /*=====================
     6. Open Source Section
-    Desc: This section hlep you configure your github repos section 
+    Desc: This section hlep you configure your github repos section
 ==========================*/
 const openSourceSection = {
-  
   //Note :  don't edit the githubToken
   githubToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
 
-  githubUserName: "AQadir64",
+  githubUserName: "Bemijonathan",
   //Note :  no of open source projects you want to show.
-  numberOfRepos: 6,
+  numberOfRepos: 9,
 };
 
 /*=====================
     7. Projects Section
     Desc: This section hlep you configure your major projects.
 ==========================*/
-
-const projectsSection = {
-  projects: [
-    {
-      projectName: "BubuSoft",
-      projectBio:
-        "DREAM BIG, ACT NOW ––– is the new motto. BabuSoft a bird’s eye view of the tech industry for all the novel ideas that you can turn into reality",
-
-      projectUrl: "https://babusoft.netlify.app/",
-      stackList: ["React", "Ant Design", "Sass", "Device Detect"],
-    },
-    {
-      projectName: "E-Trans Pakistan",
-      projectBio:
-        "E-Trans Pakistan emerge as first in its class within the city of Karachi in Sindh, offering chauffeur-driven services.",
-
-      projectUrl: "https://etranspakistan.com/",
-      stackList: ["Wordpress", "plugins", "css"],
-    },
-    {
-      projectName: "Covid-19 Tracker",
-      projectBio:
-        "Covid-19 is an real-time web application which give real-time update about the corono-virus cases in the world build on ReactJs",
-
-      projectUrl: "https://orthocovid-19.netlify.app/",
-      stackList: ["React", "Ant Design", "Sass", "AmCharts", "GeoData"],
-    },
-
-    {
-      projectName: "Cheating Detector",
-      projectBio:
-        "Cheating Detector Desktop app checks the similarity b/w different PDFs,documents ,images and text",
-
-      projectUrl: "/",
-      stackList: ["Electron", "Python", "Open Cv", "OCR", "Flask"],
-    },
-  ],
-};
 
 /*=====================
     8. Experience Section
@@ -230,7 +235,6 @@ const contactSection = {
   // Note : add your all contacts in the contactList seperating with *,* .
   contactList: ["03461826315", "a.qadir67@outlook.com"],
 };
-
 
 // Bingo :))
 

@@ -1,5 +1,5 @@
-import React, { useContext, Fragment } from "react";
-import { Row} from "react-flexbox-grid";
+import React, { useContext } from "react";
+import { Row, Col } from "react-flexbox-grid";
 import VisibilitySensor from "react-visibility-sensor";
 import { ScrollContext } from "../../../Context/scroll";
 import BannerContent from "./BannerContent";
@@ -18,19 +18,19 @@ function Banner() {
             }
           }}
         >
-          <Row around="xs" middle="xs" center="xs">
+          <Row around="xs" middle="xs" center="xs" className="hide_overflow">
             {!isMobile ? (
-              <Fragment>
-                {" "}
+              <>
+                <Col lg={2}></Col>
                 <BannerContent bannerSection={bannerSection} />
-                <BannerImage bannerSection={bannerSection} />{" "}
-              </Fragment>
-            ) : (
-              <Fragment>
-                {" "}
                 <BannerImage bannerSection={bannerSection} />
-                <BannerContent bannerSection={bannerSection} />{" "}
-              </Fragment>
+                <Col lg={2}></Col>
+              </>
+            ) : (
+              <>
+                <BannerImage bannerSection={bannerSection} />
+                <BannerContent bannerSection={bannerSection} />
+              </>
             )}
           </Row>
         </VisibilitySensor>

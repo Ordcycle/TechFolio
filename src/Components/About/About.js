@@ -38,23 +38,17 @@ function About() {
                             hideWhenDone: false,
                             hideWhenDoneDelay: 1000,
                           }}
-                          avgTypingSpeed={200}
+                          avgTypingSpeed={300}
                           avgTypingDelay={20}
                         >
                           <p className="line">
-                            {" "}
                             {aboutSection.admin}:
                             <span style={{ color: "#7f5af0" }}>~</span>$
                             {aboutSection.firstCommand}
                           </p>
-                          <Typist.Delay ms={1000} />
-                          <p className="line">
-                            {" "}
-                            {aboutSection.admin}:
-                            <span style={{ color: "#7f5af0" }}>~</span>$
-                            {aboutSection.secondCommand}
-                          </p>
-                          <br />
+                          <Typist.Delay ms={500} />
+                          <p className="line">{aboutSection.secondCommand}</p>
+
                           <p className="line">{aboutSection.about}</p>
                           <span>
                             {" "}
