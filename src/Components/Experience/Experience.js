@@ -13,6 +13,12 @@ function Experience() {
   return (
     <Fragment>
       {isMobile && <Heading heading={"Experience"} />}
+
+      {!isMobile ? (
+        <h1 style={{ textAlign: "center" }}>Work Experience </h1>
+      ) : (
+        ""
+      )}
       <section
         className="section section6"
         id="experiencesSection"

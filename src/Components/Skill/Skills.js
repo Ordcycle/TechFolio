@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import "./skills.css";
 import VisibilitySensor from "react-visibility-sensor";
-import skillsIllustration from "../../assets/imgs/focused_working.svg";
+import skillsIllustration from "../../assets/imgs/jona.gif";
 import { skillsSection } from "../../techfolio";
 import { ScrollContext } from "../../Context/scroll";
 import { isMobile } from "react-device-detect";
@@ -48,7 +48,11 @@ function Skills() {
             <Row around="xs" middle="xs" center="xs" start="lg">
               <Col xs={12} lg={6}>
                 <Flip left>
-                  <img src={skillsIllustration} alt="skills" />{" "}
+                  <img
+                    src={skillsIllustration}
+                    alt="skills"
+                    style={{ maxWidth: "550px", margin: "auto" }}
+                  />{" "}
                 </Flip>
               </Col>
               <Col xs={12} lg={6}>

@@ -1,7 +1,5 @@
-
-
 /*=====================
-  
+
   Open Source Section Css
 
 ==========================*/
@@ -69,6 +67,8 @@
 
 .githubRepoCards {
   margin-bottom: 30px;
+  max-width: 1040px;
+  margin: auto;
 }
 
 .repo-svg {

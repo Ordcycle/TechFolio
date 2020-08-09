@@ -15,12 +15,10 @@ function Projects() {
       {isMobile && (
         <Heading heading={"Projects"} style={{ marginBottom: "30px" }} />
       )}
+      {!isMobile ? <h1 style={{ textAlign: "center" }}>Projects </h1> : ""}
       <section className="section section5" name="projects">
         <div className="site-container">
           <Fade bottom>
-            <h1 style={{ textAlign: "center" }}>
-              {!isMobile ? "Projects" : ""}
-            </h1>
             <div className="project-cards">{projects}</div>
           </Fade>
         </div>

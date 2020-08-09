@@ -1,24 +1,16 @@
 import React from "react";
 
 import { Row, Col } from "react-flexbox-grid";
-import babusoftLogo from "../../assets/imgs/babusoft.png";
-import ayinQophLogo from "../../assets/imgs/ayin_qoph.png";
 
 function Footer() {
   return (
     <footer>
-      <div className="content">
-        <Row center="xs" middle="xs">
-          <Col xs={4}>
-            <img src={ayinQophLogo} className="content_logo" alt="ayin_qoph"/>
-            <img
-              src={babusoftLogo}
-              className="content_logo"
-              alt="Babusoft"
-              style={{ marginBottom: "30px" }}
-            />
+      <div className="content" style={{ padding: "20px 0" }}>
+        <Row center="xs" middle="xs" className="">
+          <Col xs={4}>Design by TechFolio</Col>
+          <Col xs={8} className="techfolio_copyright">
+            Jonathan © {new Date().getFullYear()}{" "}
           </Col>
-          <Col xs={8} className="techfolio_copyright">Techfolio ©2020 Design by –– Abdul Qadir</Col>
         </Row>
       </div>
     </footer>

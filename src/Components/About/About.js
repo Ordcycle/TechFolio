@@ -47,7 +47,7 @@ function About() {
                             {aboutSection.firstCommand}
                           </p>
                           <Typist.Delay ms={500} />
-                          <p className="line">{aboutSection.secondCommand}</p>
+                          {/**<p className="line">{aboutSection.secondCommand}</p>**/}
 
                           <p className="line">{aboutSection.about}</p>
                           <span>

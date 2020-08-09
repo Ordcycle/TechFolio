@@ -14,7 +14,7 @@ function BannerImage({ bannerSection }) {
             }
           >
             <img
-              src={require(`../../../assets/imgs/${bannerSection.bannerAvatar}`)}
+              src={bannerSection.bannerAvatar}
               alt=""
               className="hero-image_img"
             />

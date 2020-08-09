@@ -7,6 +7,7 @@ import Picoin from "./assets/imgs/pi-coin.png";
 import Foodie from "./assets/imgs/foodie.png";
 import dots from "./assets/imgs/2dots.png";
 import oof from "./assets/imgs/oof.png";
+import AvatarImage from "./assets/imgs/jona.png";
 
 const projectsSection = {
   projects: [
@@ -93,10 +94,10 @@ const app = {
 const socialNetworks = {
   //Note : if you dont need or have any social network just add null value
   github: "https://github.com/bemijonathan",
-  linkden: null,
-  facebook: "https://www.facebook.com/profile.php?id=100006896625330",
-  instagram: "https://www.instagram.com/_ayin_qoph/",
-  twitter: null,
+  linkden: "https://www.linkedin.com/in/bemijonathan",
+  facebook: null,
+  instagram: null,
+  twitter: "https://twitter.com/bemijonathan",
 };
 
 const bannerSection = {
@@ -109,7 +110,7 @@ const bannerSection = {
   //Note:Simply add you avatar image in src/assets/imgs folder
   //and add the name along with extention e.g xyz.png , abc.svg
   //Note : if you want to use default illustration instead of adding your avatar add defaultAvatar.svg
-  bannerAvatar: "avatar.jpeg",
+  bannerAvatar: AvatarImage,
   resumeLink:
     "https://drive.google.com/file/d/1C9wylYtAU9NbZaBwmQ6uGmNWmWS8_I6F/view?usp=sharing",
 };
@@ -123,7 +124,7 @@ const bannerSection = {
 
 const aboutSection = {
   admin: "mixed_code@mixed_code",
-  firstCommand: " node mixed_code.exe",
+  firstCommand: " node mixed_code.js",
   secondCommand: `opening........ `,
   about: `3 years experienced freelancer, dynamic, and detail-oriented Full Stack Web Developer with a track record of leading teams to user-centric solutions for achieving breakthrough efficiency and driving client satisfaction. Built dozens of websites and applications using javascript technologies like Nodejs and Vuejs this has led me to acquire lots of skills which include writing clean and efficient code, quick prototyping, and Large codebase migrations. `,
 };
@@ -199,27 +200,26 @@ const openSourceSection = {
 const experienceSection = {
   experiences: [
     {
-      experienceTitle: "React Boot Camper",
+      experienceTitle: "Teacher and Webdeveloper @ GlitzWebsites",
       experienceDesc:
-        "Successfully learned to React from 0%. Developed and Implement different React projects in the group. Improved communication skills while interacting with people of a different caliber.",
-      // Recommended : don't add full date.
+        "Converted Blocks of UI from PSD to HTML5 Templates, Teach Clients how to manage their wordpress e-commerce websites",
       experienceDuration: "12/18-05/19",
       // Recommended : don't add more than 3 tags.
-      experienceTags: ["Panacloud", "5 months", "karachi"],
+      experienceTags: ["Remote", "Nigeria", "Word Press"],
     },
     {
-      experienceTitle: "Wordpress Intern",
+      experienceTitle: "Software Dev. @ AMANi art Webdesign Agency",
       experienceDesc:
-        "Improved remotely managing skills by giving 20+ hours per week. Expanded knowledge of creating static and responsive sites using WordPress.",
+        "Built websites using Javascript technologies such as Vue React and Ruby on Rails, successfully built and lauched two two startups here",
       experienceDuration: "10/19-11/19",
-      experienceTags: ["Interns Pk", "1.5 month", "Remote"],
+      experienceTags: ["Port Harcourt", "Nigeria", "Onsite"],
     },
     {
-      experienceTitle: "Competition Manager",
+      experienceTitle: "Front End Developer @ IzzyLeads",
       experienceDesc:
-        "Manages the competition team and Ensures everyone is satisfied. Design and develop innovative competition for ITEC and reexamines it.",
+        "Built IzzyLeads Platform Remotely, including Client Dashboard",
       experienceDuration: "Current",
-      experienceTags: ["ACM", "12/2018-5/2019", "NEDUET"],
+      experienceTags: ["New Jersey", "United States of America", "Remote"],
     },
   ],
 };
@@ -230,10 +230,9 @@ const experienceSection = {
 ==========================*/
 
 const contactSection = {
-  contactTagline:
-    "Hey Folks, Love to see you sliding here, Y'all can reach me.",
+  contactTagline: "Got something to discuss dont fail to reach out to me.",
   // Note : add your all contacts in the contactList seperating with *,* .
-  contactList: ["03461826315", "a.qadir67@outlook.com"],
+  contactList: ["+2348141838266", "bemijonathan@gmail.com"],
 };
 
 // Bingo :))
