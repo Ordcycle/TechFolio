@@ -10,109 +10,109 @@ import oof from "./assets/imgs/oof.png";
 import AvatarImage from "./assets/imgs/jona.png";
 
 const projectsSection = {
-  projects: [
-    {
-      projectName: "Optin Shark",
-      projectBio:
-        "A Website for Generating Email Templates for none developers, to be used on other websites",
-      projectImg: OptinShark,
-      projectUrl: "https://www.optinshark.io/",
-      stackList: ["Vue js", "Vuex", "Nuxtjs", "Tailwindcss", "Animista"],
-    },
-    {
-      projectName: "Glitzwebsites",
-      projectBio:
-        "An Education Platform for GlitzWebsite used for training students on how to build websites without coding",
-      projectImg: Glitz,
+	projects: [
+		{
+			projectName: "Optin Shark",
+			projectBio:
+				"A Website for Generating Email Templates for none developers, to be used on other websites",
+			projectImg: OptinShark,
+			projectUrl: "https://app.optinshark.io/",
+			stackList: ["Vue js", "Vuex", "Nuxtjs", "Tailwindcss", "Animista"],
+		},
+		{
+			projectName: "Glitzwebsites",
+			projectBio:
+				"An Education Platform for GlitzWebsite used for training students on how to build websites without coding",
+			projectImg: Glitz,
 
-      projectUrl: "https://glitzwebsites.xyz/",
-      stackList: ["React js", "AOS", "Tailwindcss", "Tailwind Blocks"],
-    },
-    {
-      projectName: "Hair Case",
-      projectImg: HairCase,
-      projectBio: "Ecommerce Website for selling Wigs for My hair case Website",
-      projectUrl: "https://myhaircase.com/",
-      stackList: ["WordPress", "Elementor", "HTML", "CSS", "Javascript"],
-    },
+			projectUrl: "https://glitzwebsites.xyz/",
+			stackList: ["React js", "AOS", "Tailwindcss", "Tailwind Blocks"],
+		},
+		{
+			projectName: "Hair Case",
+			projectImg: HairCase,
+			projectBio: "Ecommerce Website for selling Wigs for My hair case Website",
+			projectUrl: "https://myhaircase.com/",
+			stackList: ["WordPress", "Elementor", "HTML", "CSS", "Javascript"],
+		},
 
-    {
-      projectName: "Pi Coin",
-      projectBio: "A clone of Flutter wave Barter but for bitcoins",
-      projectImg: Picoin,
-      projectUrl: "/",
-      stackList: [
-        "React js",
-        "Reach Router",
-        "Strapi Js",
-        "coingecko",
-        "Node js",
-      ],
-    },
-    {
-      projectName: "Foodie",
-      projectBio:
-        "Simple React application to show nice foods all over the world",
-      projectImg: Foodie,
-      projectUrl: "https://orthocovid-19.netlify.app/",
-      stackList: [
-        "React",
-        "Typescript",
-        "Tailwindcss",
-        "Redux",
-        "Reach router",
-      ],
-    },
+		{
+			projectName: "Pi Coin",
+			projectBio: "A clone of Flutter wave Barter but for bitcoins",
+			projectImg: Picoin,
+			projectUrl: "http://b-clone.netlify.app/",
+			stackList: [
+				"React js",
+				"Reach Router",
+				"Strapi Js",
+				"coingecko",
+				"Node js",
+			],
+		},
+		{
+			projectName: "Foodie",
+			projectBio:
+				"Simple React application to show nice foods all over the world",
+			projectImg: Foodie,
+			projectUrl: "#",
+			stackList: [
+				"React",
+				"Typescript",
+				"Tailwindcss",
+				"Redux",
+				"Reach router",
+			],
+		},
 
-    {
-      projectName: "2dots",
-      projectBio:
-        "A webapp for estate management and looking for houses for sale or rent all over Nigeria ",
-      projectImg: dots,
-      projectUrl: "/",
-      stackList: ["Electron", "Python", "Open Cv", "OCR", "Flask"],
-    },
-    {
-      projectName: "Oof Shop",
-      projectBio: "A Nigerian Made Footware brand",
-      projectImg: oof,
-      projectUrl: "https://oofshop.co",
-      stackList: ["WordPress", "HTML", "CSS", "Javascript"],
-    },
-  ],
+		{
+			projectName: "2dots",
+			projectBio:
+				"A webapp for estate management and looking for houses for sale or rent all over Nigeria ",
+			projectImg: dots,
+			projectUrl: "https://2dotsproperties.com/",
+			stackList: ["Electron", "Python", "Open Cv", "OCR", "Flask"],
+		},
+		{
+			projectName: "Oof Shop",
+			projectBio: "A Nigerian Made Footware brand",
+			projectImg: oof,
+			projectUrl: "https://oofshop.co",
+			stackList: ["WordPress", "HTML", "CSS", "Javascript"],
+		},
+	],
 };
 
 const name = "Jonathan Atiene";
 
 const app = {
-  title: name,
-  icon: "ayin_qoph.png",
-  description:
-    "An ordinary karachitte Web Developer, Mobile Shutterbug, and Writer.",
+	title: name,
+	icon: "ayin_qoph.png",
+	description:
+		"An ordinary karachitte Web Developer, Mobile Shutterbug, and Writer.",
 };
 
 const socialNetworks = {
-  //Note : if you dont need or have any social network just add null value
-  github: "https://github.com/bemijonathan",
-  linkden: "https://www.linkedin.com/in/bemijonathan",
-  facebook: null,
-  instagram: null,
-  twitter: "https://twitter.com/bemijonathan",
+	//Note : if you dont need or have any social network just add null value
+	github: "https://github.com/bemijonathan",
+	linkden: "https://www.linkedin.com/in/bemijonathan",
+	facebook: null,
+	instagram: null,
+	twitter: "https://twitter.com/bemijonathan",
 };
 
 const bannerSection = {
-  username: name,
-  bannerHeading: "Mixed_Code.",
-  bannerTagLine: emoji(
-    `Not your average Software Developer,
+	username: name,
+	bannerHeading: "Mixed_Code.",
+	bannerTagLine: emoji(
+		`Not your average Software Developer,
   Human Anatomist by Day, Developer by Night 😀 Who loves to play with different stacks and love to Implement nice Ui/Ux designs.`
-  ),
-  //Note:Simply add you avatar image in src/assets/imgs folder
-  //and add the name along with extention e.g xyz.png , abc.svg
-  //Note : if you want to use default illustration instead of adding your avatar add defaultAvatar.svg
-  bannerAvatar: AvatarImage,
-  resumeLink:
-    "https://drive.google.com/file/d/1C9wylYtAU9NbZaBwmQ6uGmNWmWS8_I6F/view?usp=sharing",
+	),
+	//Note:Simply add you avatar image in src/assets/imgs folder
+	//and add the name along with extention e.g xyz.png , abc.svg
+	//Note : if you want to use default illustration instead of adding your avatar add defaultAvatar.svg
+	bannerAvatar: AvatarImage,
+	resumeLink:
+		"https://drive.google.com/file/d/10VMZihaQbEIEg6HgCEN0YO7ZK-PDgqB6/view?usp=sharing",
 };
 
 /*=====================
@@ -123,10 +123,10 @@ const bannerSection = {
 ==========================*/
 
 const aboutSection = {
-  admin: "mixed_code@mixed_code",
-  firstCommand: " node mixed_code.js",
-  secondCommand: `opening........ `,
-  about: `3 years experienced freelancer, dynamic, and detail-oriented Full Stack Web Developer with a track record of leading teams to user-centric solutions for achieving breakthrough efficiency and driving client satisfaction. Built dozens of websites and applications using javascript technologies like Nodejs and Vuejs this has led me to acquire lots of skills which include writing clean and efficient code, quick prototyping, and Large codebase migrations. `,
+	admin: "mixed_code@mixed_code",
+	firstCommand: " node mixed_code.js",
+	secondCommand: `opening........ `,
+	about: `3 years experienced freelancer, dynamic, and detail-oriented Full Stack Web Developer with a track record of leading teams to user-centric solutions for achieving breakthrough efficiency and driving client satisfaction. Built dozens of websites and applications using javascript technologies like Nodejs and Vuejs this has led me to acquire lots of skills which include writing clean and efficient code, quick prototyping, and Large codebase migrations. `,
 };
 
 /*=====================
@@ -135,43 +135,43 @@ const aboutSection = {
 ==========================*/
 
 const skillsSection = {
-  // Recommended : don't add more than 3 skill taglines.
-  skillsTagLines: [
-    "Excitable towards giving breath to different mockup PSDs and web designs using Html / Css and Scss.",
-    "Love to Build Scalable web and native application using React with the several stacks, packages, and services.",
-    "Also Passionate towards other stuff like WordPress development, python scripting, and Dev-Ops.",
-  ],
+	// Recommended : don't add more than 3 skill taglines.
+	skillsTagLines: [
+		"Excitable towards giving breath to different mockup PSDs and web designs using Html / Css and Scss.",
+		"Love to Build Scalable web and native application using React with the several stacks, packages, and services.",
+		"Also Passionate towards other stuff like WordPress development, python scripting, and Dev-Ops.",
+	],
 
-  // Recommended : don't add more than 12 skills.
-  // Note : go to https://fontawesome.com/icons?d=gallery > select the icon you want to show
-  //        > copy its class > paste it as {fontAwesomeClassname: "fab fa-html5"} in SkillsSet
+	// Recommended : don't add more than 12 skills.
+	// Note : go to https://fontawesome.com/icons?d=gallery > select the icon you want to show
+	//        > copy its class > paste it as {fontAwesomeClassname: "fab fa-html5"} in SkillsSet
 
-  skillsSet: [
-    {
-      fontAwesomeClassname: "fab fa-html5",
-    },
-    {
-      fontAwesomeClassname: "fab fa-css3-alt",
-    },
-    {
-      fontAwesomeClassname: "fab fa-js",
-    },
-    {
-      fontAwesomeClassname: "fab fa-react",
-    },
-    {
-      fontAwesomeClassname: "fab fa-angular",
-    },
-    {
-      fontAwesomeClassname: "fab fa-vuejs",
-    },
-    {
-      fontAwesomeClassname: "fab fa-wordpress",
-    },
-    {
-      fontAwesomeClassname: "fab fa-node",
-    },
-  ],
+	skillsSet: [
+		{
+			fontAwesomeClassname: "fab fa-html5",
+		},
+		{
+			fontAwesomeClassname: "fab fa-css3-alt",
+		},
+		{
+			fontAwesomeClassname: "fab fa-js",
+		},
+		{
+			fontAwesomeClassname: "fab fa-react",
+		},
+		{
+			fontAwesomeClassname: "fab fa-angular",
+		},
+		{
+			fontAwesomeClassname: "fab fa-vuejs",
+		},
+		{
+			fontAwesomeClassname: "fab fa-wordpress",
+		},
+		{
+			fontAwesomeClassname: "fab fa-node",
+		},
+	],
 };
 
 /*=====================
@@ -179,12 +179,12 @@ const skillsSection = {
     Desc: This section hlep you configure your github repos section
 ==========================*/
 const openSourceSection = {
-  //Note :  don't edit the githubToken
-  githubToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
+	//Note :  don't edit the githubToken
+	githubToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
 
-  githubUserName: "Bemijonathan",
-  //Note :  no of open source projects you want to show.
-  numberOfRepos: 9,
+	githubUserName: "Bemijonathan",
+	//Note :  no of open source projects you want to show.
+	numberOfRepos: 9,
 };
 
 /*=====================
@@ -198,30 +198,30 @@ const openSourceSection = {
 ==========================*/
 
 const experienceSection = {
-  experiences: [
-    {
-      experienceTitle: "Teacher and Webdeveloper @ GlitzWebsites",
-      experienceDesc:
-        "Converted Blocks of UI from PSD to HTML5 Templates, Teach Clients how to manage their wordpress e-commerce websites",
-      experienceDuration: "12/18-05/19",
-      // Recommended : don't add more than 3 tags.
-      experienceTags: ["Remote", "Nigeria", "Word Press"],
-    },
-    {
-      experienceTitle: "Software Dev. @ AMANi art Webdesign Agency",
-      experienceDesc:
-        "Built websites using Javascript technologies such as Vue React and Ruby on Rails, successfully built and lauched two two startups here",
-      experienceDuration: "10/19-11/19",
-      experienceTags: ["Port Harcourt", "Nigeria", "Onsite"],
-    },
-    {
-      experienceTitle: "Front End Developer @ IzzyLeads",
-      experienceDesc:
-        "Built IzzyLeads Platform Remotely, including Client Dashboard",
-      experienceDuration: "Current",
-      experienceTags: ["New Jersey", "United States of America", "Remote"],
-    },
-  ],
+	experiences: [
+		{
+			experienceTitle: "Teacher and Webdeveloper @ GlitzWebsites",
+			experienceDesc:
+				"Converted Blocks of UI from PSD to HTML5 Templates, Teach Clients how to manage their wordpress e-commerce websites",
+			experienceDuration: "09/17-06/18",
+			// Recommended : don't add more than 3 tags.
+			experienceTags: ["Remote", "Nigeria", "Word Press", "9 months"],
+		},
+		{
+			experienceTitle: "Software Dev. @ AMANi art Webdesign Agency",
+			experienceDesc:
+				"Built websites using Javascript technologies such as Vue React and Ruby on Rails, successfully built and lauched two two startups here",
+			experienceDuration: "09/18-06/20",
+			experienceTags: ["Port Harcourt", "Nigeria", "1year, 9months"],
+		},
+		{
+			experienceTitle: "Front End Developer @ IzzyLeads",
+			experienceDesc:
+				"Built IzzyLeads Platform Remotely, including Client Dashboard",
+			experienceDuration: "Current",
+			experienceTags: ["New Jersey", "USA", "Remote"],
+		},
+	],
 };
 
 /*=====================
@@ -230,21 +230,21 @@ const experienceSection = {
 ==========================*/
 
 const contactSection = {
-  contactTagline: "Got something to discuss dont fail to reach out to me.",
-  // Note : add your all contacts in the contactList seperating with *,* .
-  contactList: ["+2348141838266", "bemijonathan@gmail.com"],
+	contactTagline: "Got something to discuss dont fail to reach out to me.",
+	// Note : add your all contacts in the contactList seperating with *,* .
+	contactList: ["+2348141838266", "bemijonathan@gmail.com"],
 };
 
 // Bingo :))
 
 export {
-  app,
-  socialNetworks,
-  bannerSection,
-  aboutSection,
-  skillsSection,
-  openSourceSection,
-  projectsSection,
-  experienceSection,
-  contactSection,
+	app,
+	socialNetworks,
+	bannerSection,
+	aboutSection,
+	skillsSection,
+	openSourceSection,
+	projectsSection,
+	experienceSection,
+	contactSection,
 };
