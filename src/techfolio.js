@@ -7,6 +7,8 @@ import Picoin from "./assets/imgs/pi-coin.png";
 import Foodie from "./assets/imgs/foodie.png";
 import dots from "./assets/imgs/2dots.png";
 import oof from "./assets/imgs/oof.png";
+import BTC from "./assets/imgs/btc.png";
+
 import AvatarImage from "./assets/imgs/jona.png";
 
 const projectsSection = {
@@ -20,13 +22,26 @@ const projectsSection = {
 			stackList: ["Vue js", "Vuex", "Nuxtjs", "Tailwindcss", "Animista"],
 		},
 		{
+			projectName: "BTC Saver",
+			projectBio: "A btc on-line wallet for storing bitcoins",
+			projectImg: BTC,
+			projectUrl: "https://telegraphbtc.netlify.app/home",
+			stackList: ["React js", "Redux", "Tailwindcss", "Nodejs", "Typescript"],
+		},
+		{
 			projectName: "Glitzwebsites",
 			projectBio:
-				"An Education Platform for GlitzWebsite used for training students on how to build websites without coding",
+				"An Education Platform for GlitzWebsiteFlask used for training students on how to build websites without coding",
 			projectImg: Glitz,
 
 			projectUrl: "https://glitzwebsites.xyz/",
-			stackList: ["React js", "AOS", "Tailwindcss", "Tailwind Blocks"],
+			stackList: [
+				"React js",
+				"AOS",
+				"Tailwindcss",
+				"Tailwind Blocks",
+				"Nodejs",
+			],
 		},
 		{
 			projectName: "Hair Case",
@@ -70,7 +85,7 @@ const projectsSection = {
 				"A webapp for estate management and looking for houses for sale or rent all over Nigeria ",
 			projectImg: dots,
 			projectUrl: "https://2dotsproperties.com/",
-			stackList: ["Electron", "Python", "Open Cv", "OCR", "Flask"],
+			stackList: ["Rails", "Vuejs", "Nuxtjs", "Postgres"],
 		},
 		{
 			projectName: "Oof Shop",
