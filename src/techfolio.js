@@ -117,10 +117,15 @@ const socialNetworks = {
 
 const bannerSection = {
 	username: name,
-	bannerHeading: "Mixed_Code.",
+	bannerHeading: `Hi I'm Jonathan.`,
 	bannerTagLine: emoji(
-		`Not your average Software Developer,
-  Human Anatomist by Day, Developer by Night 😀 Who loves to play with different stacks and love to Implement nice Ui/Ux designs.`
+		`Full Stack Web Developer focused on building user-centric solutions
+		 for achieving breakthrough efficiency and driving client satisfaction. 
+		 Built dozens of websites and applications using latest and cutting edge technologies 
+		 my experience has led me to acquire lots of skills which include writing clean and efficient code, 
+		 quick prototyping, and Large codebase migrations. 
+		 By Day i am a Human Anatomist who loves sitting by his Laptop 💻, 
+		 At Night 😎 i am a developer Who loves to play with different stacks.`
 	),
 	//Note:Simply add you avatar image in src/assets/imgs folder
 	//and add the name along with extention e.g xyz.png , abc.svg
@@ -131,29 +136,33 @@ const bannerSection = {
 };
 
 /*=====================
-    4. About Section
-    Desc: It's all about you!. this section is designed using the command
-    line concept so it asked you to add the admin of the command line
-    and 2 basic commands (i recommend you to use default commands).
+	4. About Section
+	Desc: It's all about you!. this section is designed using the command
+	line concept so it asked you to add the admin of the command line
+	and 2 basic commands (i recommend you to use default commands).
 ==========================*/
 
 const aboutSection = {
 	admin: "mixed_code@mixed_code",
-	firstCommand: " node mixed_code.js",
+	firstCommand: "node index.ts",
 	secondCommand: `opening........ `,
-	about: `3 years experienced freelancer, dynamic, and detail-oriented Full Stack Web Developer with a track record of leading teams to user-centric solutions for achieving breakthrough efficiency and driving client satisfaction. Built dozens of websites and applications using javascript technologies like Nodejs and Vuejs this has led me to acquire lots of skills which include writing clean and efficient code, quick prototyping, and Large codebase migrations. `,
+	about: `Detailed oriented FullStack Developer,  
+	Proficient in understanding and transforming client requirements to exceptional engineering ideas 
+	and well-researched responsive solutions. An innovative individual who possesses strong communication 
+	skills and the ability to present solutions to both technical and non-technical audiences. 
+`,
 };
 
 /*=====================
-    5. Skils Section
-    Desc: This section hep you set your skills
+	5. Skils Section
+	Desc: This section hep you set your skills
 ==========================*/
 
 const skillsSection = {
 	// Recommended : don't add more than 3 skill taglines.
 	skillsTagLines: [
-		"Excitable towards giving breath to different mockup PSDs and web designs using Html / Css and Scss.",
-		"Love to Build Scalable web and native application using React with the several stacks, packages, and services.",
+		"Plan on learning more about DevOps and Mobile App developmennt.",
+		"Getting more into Javascript animations ",
 		"Also Passionate towards other stuff like WordPress development, python scripting, and Dev-Ops.",
 	],
 
@@ -175,7 +184,7 @@ const skillsSection = {
 			fontAwesomeClassname: "fab fa-react",
 		},
 		{
-			fontAwesomeClassname: "fab fa-angular",
+			fontAwesomeClassname: "fab fa-aws",
 		},
 		{
 			fontAwesomeClassname: "fab fa-vuejs",
@@ -190,8 +199,8 @@ const skillsSection = {
 };
 
 /*=====================
-    6. Open Source Section
-    Desc: This section hlep you configure your github repos section
+	6. Open Source Section
+	Desc: This section hlep you configure your github repos section
 ==========================*/
 const openSourceSection = {
 	//Note :  don't edit the githubToken
@@ -203,13 +212,13 @@ const openSourceSection = {
 };
 
 /*=====================
-    7. Projects Section
-    Desc: This section hlep you configure your major projects.
+	7. Projects Section
+	Desc: This section hlep you configure your major projects.
 ==========================*/
 
 /*=====================
-    8. Experience Section
-    Desc: This section help you configure your experience.
+	8. Experience Section
+	Desc: This section help you configure your experience.
 ==========================*/
 
 const experienceSection = {
@@ -233,15 +242,29 @@ const experienceSection = {
 			experienceTitle: "Front End Developer @ IzzyLeads",
 			experienceDesc:
 				"Built IzzyLeads Platform Remotely, including Client Dashboard",
-			experienceDuration: "Current",
+			experienceDuration: "06/18-08/20",
 			experienceTags: ["New Jersey", "USA", "Remote"],
+		},
+		{
+			experienceTitle: "Full Stack Developer @ Lendsqr",
+			experienceDesc:
+				"Built and optimized code Performance and architecture by building extensive Microservices",
+			experienceDuration: "Current",
+			experienceTags: ["Lagos", "Nigeria", "Remote"],
+		},
+		{
+			experienceTitle: "Contract Front End Developer",
+			experienceDesc:
+				"Built Reusable front end Components using React and Typescript for the InPlat dashboard",
+			experienceDuration: "Current",
+			experienceTags: ["Italy", "Italy", "Remote"],
 		},
 	],
 };
 
 /*=====================
-    9. Contact Section
-    Desc: This section help you configure your contact.
+	9. Contact Section
+	Desc: This section help you configure your contact.
 ==========================*/
 
 const contactSection = {

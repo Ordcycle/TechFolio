@@ -58,19 +58,6 @@ function Navbar() {
             </li>
             <li>
               <ScrollTo
-                to="openSources"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                onClick={() => {
-                  toggleOpen(!open);
-                }}
-              >
-                <p>Open Source</p>
-              </ScrollTo>
-            </li>
-            <li>
-              <ScrollTo
                 to="projects"
                 spy={true}
                 smooth={true}

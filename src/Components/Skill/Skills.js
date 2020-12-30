@@ -67,9 +67,12 @@ function Skills() {
                   </Row>
                   <h1> Others Include </h1>
                   <ul>
-                    <li> Ruby on Rails </li> <li> Typescript </li>{" "}
-                    <li> Azure </li> <li> MongoDB </li>
+                    <li> Typescript </li>
+                    <li> MongoDB </li>
+                    <li> Ruby and Rails </li>
+                    <li> Python</li>
                   </ul>
+                  <h1> Interest/Plans </h1>
                   {skillsTagLines}
                 </Fade>
               </Col>
