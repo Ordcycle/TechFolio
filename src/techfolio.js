@@ -5,7 +5,8 @@ import Glitz from "./assets/imgs/glitzwebsites.png";
 import HairCase from "./assets/imgs/haircase.png";
 import Picoin from "./assets/imgs/pi-coin.png";
 import Foodie from "./assets/imgs/foodie.png";
-import dots from "./assets/imgs/2dots.png";
+import lender from "./assets/imgs/lender.png";
+import foodiet from "./assets/imgs/foodDiet.png"
 import oof from "./assets/imgs/oof.png";
 import BTC from "./assets/imgs/btc.png";
 
@@ -14,12 +15,40 @@ import AvatarImage from "./assets/imgs/jona.png";
 const projectsSection = {
 	projects: [
 		{
+			projectName: "Lendsqr",
+			projectBio: "Cloud based Multi Vendor Lending system",
+			projectImg: lender,
+			projectUrl: "https://lendsqr.com/",
+			stackList: ["AWS", "Nodejs", "Mysql", "Javascript"],
+		},
+		{
+			projectName: "FoodDiet",
+			projectBio: "A website for buying and delivering food from different places in Nigeria",
+			projectImg: foodiet,
+			projectUrl: "https://foodiet.netlify.com/",
+			stackList: ["AWS", "Nodejs", "Mysql", "Javascript"],
+		},
+		{
 			projectName: "Optin Shark",
 			projectBio:
 				"A Website for Generating Email Templates for none developers, to be used on other websites",
 			projectImg: OptinShark,
 			projectUrl: "https://app.optinshark.io/",
 			stackList: ["Vue js", "Vuex", "Nuxtjs", "Tailwindcss", "Animista"],
+		},
+		{
+			projectName: "Foodie",
+			projectBio:
+				"Simple React application to show nice foods all over the world",
+			projectImg: Foodie,
+			projectUrl: "#",
+			stackList: [
+				"React",
+				"Typescript",
+				"Tailwindcss",
+				"Redux",
+				"Reach router",
+			],
 		},
 		{
 			projectName: "BTC Saver",
@@ -64,29 +93,7 @@ const projectsSection = {
 				"Node js",
 			],
 		},
-		{
-			projectName: "Foodie",
-			projectBio:
-				"Simple React application to show nice foods all over the world",
-			projectImg: Foodie,
-			projectUrl: "#",
-			stackList: [
-				"React",
-				"Typescript",
-				"Tailwindcss",
-				"Redux",
-				"Reach router",
-			],
-		},
 
-		{
-			projectName: "2dots",
-			projectBio:
-				"A webapp for estate management and looking for houses for sale or rent all over Nigeria ",
-			projectImg: dots,
-			projectUrl: "https://2dotsproperties.com/",
-			stackList: ["Rails", "Vuejs", "Nuxtjs", "Postgres"],
-		},
 		{
 			projectName: "Oof Shop",
 			projectBio: "A Nigerian Made Footware brand",
@@ -102,8 +109,7 @@ const name = "Jonathan Atiene";
 const app = {
 	title: name,
 	icon: "ayin_qoph.png",
-	description:
-		"An ordinary karachitte Web Developer, Mobile Shutterbug, and Writer.",
+	description: "FullStack Software Engineer",
 };
 
 const socialNetworks = {
@@ -257,7 +263,7 @@ const experienceSection = {
 			experienceDesc:
 				"Built Reusable front end Components using React and Typescript for the InPlat dashboard",
 			experienceDuration: "Current",
-			experienceTags: ["Italy", "Italy", "Remote"],
+			experienceTags: ["Italy", "Udine", "Remote"],
 		},
 	],
 };
@@ -270,7 +276,7 @@ const experienceSection = {
 const contactSection = {
 	contactTagline: "Got something to discuss dont fail to reach out to me.",
 	// Note : add your all contacts in the contactList seperating with *,* .
-	contactList: ["+2348141838266", "bemijonathan@gmail.com"],
+	contactList: ["+2348159540602", "+2348141838266", "bemijonathan@gmail.com"],
 };
 
 // Bingo :))
